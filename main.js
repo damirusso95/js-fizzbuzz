@@ -14,9 +14,8 @@
 
 let i = 1
 // stampo in console numeri da 1 a 100 utilizzando il ciclo for
-for(let i = 1; i <= 100; i++){
-    console.log(i)
-
+for( i ; i <= 100; i++){
+    
 // stampo Bazz al posto dei numeri multipli di 5 e 3
 if(i % 5 ==0 && i % 3 ==0){
     console.log(i,"FizzBuzz")
@@ -31,6 +30,10 @@ else if(i % 3 ==0){
 // stampo Fizz al posto dei numeri multipli di 5
  else if(i % 5 ==0){
     console.log(i,"Buzz")
+}
+
+else{
+    console.log(i);
 }
 
 
